@@ -57,7 +57,7 @@ jQuery(document).ready(function ($) {
             e.target.querySelector(
               "#contact-form-response"
             )
-              window.location.href="./message-envoye.html";
+              window.location.href="/message-envoye";
           }
           if (type === "devis"){
           e.target.querySelector("#devis-form-response").classList.add("success");
@@ -65,7 +65,7 @@ jQuery(document).ready(function ($) {
             "#devis-form-response"
           ).innerHTML = successMessage;
           }
-          window.location.href="./message-envoye.html";  
+          window.location.href="/message-envoye";  
           localStorage.removeItem('calc_list');
                   localStorage.removeItem('calc_volume');
         },
